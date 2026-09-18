@@ -16,11 +16,7 @@ const labels: Record<Tab, Copy> = {
   home: ['Home', 'ទំព័រដើម'], records: ['Records', 'កំណត់ត្រា'], readiness: ['Readiness', 'ការត្រៀមខ្លួន'],
   profile: ['Profile', 'ប្រវត្តិរូប'], learn: ['Learn', 'ស្វែងយល់'],
 };
-const docLabels: Record<DocKey, Copy> = {
-  identity: ['Identity document available', 'មានឯកសារអត្តសញ្ញាណ'],
-  bankHistory: ['Account or payment history available', 'មានប្រវត្តិគណនី ឬការទូទាត់'],
-  registration: ['Registration (if applicable)', 'ការចុះបញ្ជី (បើមាន)'],
-};
+
 const tabs = [
   { id: 'home', icon: Home }, { id: 'records', icon: Wallet }, { id: 'readiness', icon: ClipboardCheck },
   { id: 'profile', icon: FileText }, { id: 'learn', icon: BookOpen },
